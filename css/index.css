@@ -1,0 +1,69 @@
+@charset "utf-8";
+body{background-color:#ececec;}
+.main{max-width:750px;min-width:320px;margin:0 auto;}
+header{width:16rem;height:1.536rem;padding:0.426rem 0 0.213rem;background-color:#fff;}
+.address{height:1.536rem;padding-left:0.683rem;}
+.address span{color:#9acf0f;font-size:0.683rem;background:url(../img/bottom.png) no-repeat right center;padding-right:0.533rem;background-size:0.426rem 0.213rem;}
+.search{padding-left:0.96rem;}
+.search input{width:9.857rem;height:1.536rem;background-color:#e0e0e0;border-radius:0.213rem;border:none;font-family:"microsoft yahei";padding:0 0.213rem;font-size:0.683rem;}
+
+/*72像素：1.536rem;
+32像素：0.683rem;
+45像素：0.96rem;
+25像素：0.533rem;
+24像素：0.512rem;
+10像素：0.213rem;*/
+.add-car img{width:1.216rem;height: 1.216rem;padding:0 0 0 0.4rem;display: inline-block;}
+.banner img{width:16rem;display: inline-block;}
+.item{width:16rem;height:4.565rem;background:#fff;}
+.item ul{padding-top:0.587rem;}
+.item li{width:25%;float:left;text-align: center;}
+.item li img{width:2.264rem;display: inline-block;}
+
+.advantage{width:16rem;height:4.91rem;padding:0.426rem 0;}
+.advantage ul{margin:0 0.14375rem;}
+.advantage ul li{width:4.95rem;height:4.95rem;margin:0 0.14375rem;float:left;text-align: center;background:#fff;}
+.advantage ul li img{width:3.072rem;height:4.053rem;display: inline-block;padding-top:0.428rem;}
+
+.list{padding:0 0.426rem;width:15.148rem;background:#fff;}
+.list .tit{padding:0.533rem 0 0.426rem;height:0.852rem;line-height:1;border-bottom: 1px solid #e1e1e1;}
+.list .tit span{font-size:0.683rem;}
+.list .tit a{font-size:0.512rem;padding-right:0.426rem;background:url(../img/right.png) no-repeat right center;background-size:0.256rem 0.426rem;}
+.cont{padding:0.426rem 0;border-bottom: 1px solid #e1e1e1;height:3.027rem;position: relative;}
+.cont .pic img{width:3.776rem;height:3.027rem;display: block;}
+.cont.last{border-bottom: none;}
+
+.cont .text{width:7.25rem;padding-left:0.213rem;}
+.cont .text p{width:100%;overflow: hidden;text-overflow:ellipsis;white-space: nowrap;color:#000;height: 1rem;line-height:1;}
+.cont .text p.color666{color:#666;}
+.cont .text p a{font-size:0.683rem;display:inline-block;}
+.cont .text p span{padding-right:0.426rem;font-size:0.512rem;display:inline-block;}
+
+.cont .tags{width:3.84rem;}
+.cont .tags p{text-align: right;height: 1rem;line-height:1;}
+.cont .tags p b{font-size:0.683rem;color:#ff9900;font-family:"arial";font-weight: bold;}
+.cont .tags p span{color:#ff9900;font-size:0.341rem;}
+.cont .tags p em{font-family: "arial";color:#ababab;font-size:0.47rem;}
+.cont .tags p a{color:#12acf2;font-size:0.427rem;padding-left:0.426rem;background:url(../img/location.png) no-repeat 0 center;background-size:0.299rem 0.426rem;}
+.shade{position: absolute;top:0;left:0;right:0;bottom: 0;background:rgba(255,255,255,0.6);z-index:1;}
+.closing{position:absolute;top:0.426rem;right:2.944rem;z-index:2;}
+.closing img{width:2.944rem;height:2.944rem;display: block;}
+
+.loadmore{height:2.16rem;line-height:1.8rem;background-color:#ececec;width:16rem;text-align: center;border-top:1px solid #e1e1e1;}
+.loadmore span{font-size:0.576rem;color:#ababab;background:url(../img/load.png) no-repeat 0 center;background-size:0.576rem 0.639rem;padding-left:0.8rem;position: relative;width:2.4rem;margin:0 auto;display: inline-block;cursor: pointer;}
+.loadmore b{border-top:1px solid #cecece;display: inline-block;height:1px;width:5.5rem;margin-top:1.05rem;}
+.loadmore b.fl{padding-left:0.4rem;}
+.loadmore b.fr{padding-right:0.4rem;}
+
+footer{width:16rem;height:2.1rem;border-top:1px solid #e1e1e1;background: #fff;}
+footer li{float:left;width:4rem;height:2.1rem;cursor: pointer;}
+footer li.li1{background:url(../img/fw1.png) no-repeat center center;background-size:0.981rem 1.58rem;}
+footer li.li2{background:url(../img/zx1.png) no-repeat center center;background-size:0.981rem 1.58rem;}
+footer li.li3{background:url(../img/dd1.png) no-repeat center center;background-size:0.981rem 1.58rem;}
+footer li.li4{background:url(../img/me1.png) no-repeat center center;background-size:0.981rem 1.58rem;}
+footer li.li1:hover{background:url(../img/fw2.png) no-repeat center center;}
+footer li.li2:hover{background:url(../img/zx2.png) no-repeat center center;}
+footer li.li3:hover{background:url(../img/dd2.png) no-repeat center center;}
+footer li.li4:hover{background:url(../img/me2.png) no-repeat center center;}
+footer li a{text-indent: -1000000px;opacity: 0;}
+a:hover{color:#FF9900;}

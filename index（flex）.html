@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>门店首页</title>
+    <link href="css/base.css" rel="stylesheet"> 
+    <link href="css/css.css" rel="stylesheet">    
+</head>
+<body>
+    <div class="main">
+<header class="disflex">
+    <div class="address">
+        <span>北京</span>
+    </div>
+    <div class="search flex">
+        <input type="text" placeholder="按服务商、地址、所需服务搜索">
+    </div>
+    <div class="add-car">
+        <a href="javascript:;"><img src="img/addCar.png"/></a>
+    </div>
+</header>
+<div class="banner"><img src="img/banner.png"/></div>
+<div class="item">
+    <ul class="disflex">
+        <li class="flex"><a href="javascript:;"><img src="img/1.png"/></a></li>
+        <li class="flex"><a href="javascript:;"><img src="img/2.png"/></a></li>
+        <li class="flex"><a href="javascript:;"><img src="img/3.png"/></a></li>
+        <li class="flex"><a href="javascript:;"><img src="img/4.png"/></a></li>
+    </ul>
+</div>
+<div class="advantage">
+    <ul class="disflex">
+        <li class="flex"><a href="javascript:;"><img src="img/5.png"/></a></li>
+        <li class="flex"><a href="javascript:;"><img src="img/6.png"/></a></li>
+        <li class="flex"><a href="javascript:;"><img src="img/7.png"/></a></li>
+    </ul>
+</div>
+</div>
+<script>
+// 利用js控制页面html基准font-size大小，在此基础上自适应布局
+        // (function (doc, win) {
+        //   var docEl = doc.documentElement,
+        //     resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        //     recalc = function () {
+        //       var clientWidth = docEl.clientWidth;
+        //       if (!clientWidth) return;
+        //       docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+        //     };
+
+        //   if (!doc.addEventListener) return;
+        //   win.addEventListener(resizeEvt, recalc, false);
+        //   doc.addEventListener('DOMContentLoaded', recalc, false);
+        // })(document, window);
+    </script>
+</body>
+</html>

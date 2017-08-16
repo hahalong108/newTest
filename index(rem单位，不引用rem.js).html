@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>门店首页</title>
+    <link href="css/base.css" rel="stylesheet"> 
+    <link href="css/index.css" rel="stylesheet">    
+    <style type="text/css">
+.main{max-width:100%;min-width:320px;margin:0 auto;}
+    </style>
+</head>
+<body>
+    <div class="main">
+<header>
+    <div class="fl address">
+        <span>北京</span>
+    </div>
+    <div class="search fl">
+        <input type="text" placeholder="按服务商、地址、所需服务搜索">
+    </div>
+    <div class="add-car fl">
+        <a href="javascript:;"><img src="img/addCar.png"/></a>
+    </div>
+</header>
+<div class="banner"><img src="img/banner.png"/></div>
+<div class="item">
+    <ul>
+        <li><a href="javascript:;"><img src="img/1.png"/></a></li>
+        <li><a href="javascript:;"><img src="img/2.png"/></a></li>
+        <li><a href="javascript:;"><img src="img/3.png"/></a></li>
+        <li><a href="javascript:;"><img src="img/4.png"/></a></li>
+    </ul>
+</div>
+<div class="advantage">
+    <ul>
+        <li><a href="javascript:;"><img src="img/5.png"/></a></li>
+        <li><a href="javascript:;"><img src="img/6.png"/></a></li>
+        <li><a href="javascript:;"><img src="img/7.png"/></a></li>
+    </ul>
+</div>
+
+<div class="list">
+    <div class="tit"><span class="fl">附近门店</span><a href="javascript:;" class="fr">查看更多</a></div>
+    <div class="cont">
+        <div class="pic fl"><img src="img/logo-pic.png"/></div>
+        <div class="text fl">
+            <p><a href="javascript:;">诸葛汽车养生馆</a></p>
+            <p class="color666"><span>工位：7</span><span>诊断师：3</span></p>
+            <p class="color666"><span>地址：北京玉带河东街4号</span></p>
+        </div>
+        <div class="tags fr">
+            <p><b>3700</b><span>分</span></p>
+            <p class="color666"><em>09:00-18:00</em></p>
+            <p class="color666"><a href="javascript:;">300m</a></em></p>
+        </div>
+        <div class="shade"></div>
+        <div class="closing"><img src="img/close1.png"/></div>
+    </div>
+    <div class="cont last">
+        <div class="pic fl"><img src="img/logo-pic.png"/></div>
+        <div class="text fl">
+            <p><a href="javascript:;">诸葛汽车养生馆</a></p>
+            <p class="color666"><span>工位：7</span><span>诊断师：3</span></p>
+            <p class="color666"><span>地址：北京玉带河东街4号</span></p>
+        </div>
+        <div class="tags fr">
+            <p><b>3700</b><span>分</span></p>
+            <p class="color666"><em>09:00-18:00</em></p>
+            <p class="color666"><a href="javascript:;">300m</a></em></p>
+        </div>
+    </div>
+</div>
+<div class="loadmore">
+       <b class="fl"></b><span>查看更多</span><b class="fr"></b>
+    </div>
+<footer>
+    <ul>
+        <li class="li1"><a href="javascript:;">服务</a></li>
+        <li class="li2"><a href="javascript:;">咨询</a></li>
+        <li class="li3"><a href="javascript:;">订单</a></li>
+        <li class="li4"><a href="javascript:;">我</a></li>
+    </ul>
+</footer>
+
+</div>
+
+<script>
+// 利用js控制页面html基准font-size大小，在此基础上自适应布局
+        (function (doc, win) {
+          var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+              var clientWidth = docEl.clientWidth;
+              if (!clientWidth) return;
+              docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+            };
+
+          if (!doc.addEventListener) return;
+          win.addEventListener(resizeEvt, recalc, false);
+          doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+</body>
+</html>
